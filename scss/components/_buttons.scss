@@ -1,0 +1,19 @@
+.btn {
+    background: $yellow;
+    color: $white-color;
+    padding: 1.4rem 3.6rem;
+    font-family: $font-famly1;
+    border: 3px solid #FCB72B;
+    font-size: 15px;
+    line-height: 1.67;
+    &:hover {
+        background: transparent;
+        color: $yellow;
+        border: 3px solid #FCB72B;
+    }
+    &:active{
+        background: rgb(241, 232, 232);
+        color: $yellow;
+        border: 3px solid #f4f0e8;
+    }
+}
